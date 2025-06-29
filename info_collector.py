@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+dob = input("Enter your date of birth (DD-MM-YYYY): ")
+ph_no = input("Enter your phone number: ")
+location = input("Enter your location: ")
+
+print("------------------------")
+print("Name     : ", name)
+print("Age      : ", age)
+print("DOB      : ", dob)
+print("Phone no : ", ph_no)
+print("Location : ", location)
+print("------------------------")
