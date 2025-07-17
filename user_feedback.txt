@@ -1,3 +1,0 @@
-Name     : yas
-Email    : yas@gmail.com
-Feedback : I like it
