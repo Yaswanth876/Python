@@ -9,8 +9,10 @@ with open("user_feedback.txt", "w") as f:
     f.write("Feedback : " + feedback + "\n")
 
 # Reading from file
-with open("user_feedback.txt", "r") as f:
-    user_feedback = f.read()
-
-print("\n📝 User Feedback Received:\n--------------------------")
-print(user_feedback)
+try:
+    with open("user_feedback.txt", "r") as f:
+        user_feedback = f.read()
+    print("\n📝 User Feedback Received:\n--------------------------")
+    print(user_feedback)
+except FileNotFoundError:
+    print("❌ Oops! File not found. Please submit feedback first.")
